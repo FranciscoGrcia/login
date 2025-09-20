@@ -30,11 +30,11 @@ background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 
 
 form{
     max-width: 500px;
+    height: auto;
     border-radius: 30px;
     margin: auto;
     background: #fff;
     padding: 2.5em;
-    height: auto;
 }
 
 
@@ -134,4 +134,11 @@ button:hover{
     form {
         padding: 1.5em;
     }
+
+    .menu h1{
+    text-align: center;
+    font-weight: bold;
+    padding: 0.10em;
+    }
+
 }
