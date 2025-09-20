@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: magenta;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu{
+    background: #fff;
+    color: #000000;
+}
+
+.menu h1{
+    text-align: center;
+    font-weight: bold;
+    padding: 0.25em;
+}
+
+#container{
+    margin: 10em auto;
+    max-width: 1000px;
+}
+
+form{
+    max-width: 500px;
+    border-radius: 12px;
+    margin: auto;
+    background: #fff;
+    padding: 2.5em;
+    height: auto;
+    }
+
+input {
+    width: 100%;
+}
+
+button{
+    border: 0;
+    width: 100%;
+    padding: 0.60em 0;
+    margin: 1em 0;
+    background: magenta;
+    color: #fff;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.principalForm{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.50em;
+}
+
+.principalForm h2{
+    padding: 0.50em 0;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.principalForm input{
+    min-height: 1.8rem;
+    padding: 0.80em;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 3px 5px rgb(0, 0, 0, 1);
+}
+
+.SecundariaForm{
+    display: flex;
+    justify-content: space-between;
+    margin: 1em 0;
+}
+
+.SecundariaForm a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.texto{
+    padding: 10px 0;
+    font-weight: bold;
+}
+
+.sociais{
+    text-align: center;
+}
+
+.icon{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 0.40rem;
+    border-bottom: 1px solid #000000;
+    padding-bottom: 1.8em;
+}
+
+.text{
+    text-align: center;
+    padding-top: 1.8em;
+}
+
+.text a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #000000;
+}
