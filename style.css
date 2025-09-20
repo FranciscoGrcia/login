@@ -62,8 +62,8 @@ button:hover{
 }
 
 .principalForm input:focus {
-    outline: 2px solid magenta;
-    box-shadow: 0 0 5px magenta;
+    outline: 1px solid rgba(63, 94, 251, 1) 0%, rgba(252, 70, 106, 0.904) 100%;
+    
 }
 
 
