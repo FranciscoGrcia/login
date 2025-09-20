@@ -125,8 +125,7 @@ button:hover{
 
 @media (max-width: 600px) {
     #container {
-        margin: 3em 1em;
-        padding: 1.5em;
+        padding: 1em;
     }
     .icon {
         gap: 20px;
